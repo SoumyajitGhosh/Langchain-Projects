@@ -2,3 +2,5 @@ langchain_openai
 langchain_core
 streamlit
 python-dotenv
+langchain_community
+langchain_ollama
