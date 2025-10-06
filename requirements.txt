@@ -1,6 +1,17 @@
-langchain_openai
-langchain_core
-streamlit
-python-dotenv
-langchain_community
-langchain_ollama
+# Runtime (Python 3.11 recommended)
+fastapi==0.114.*
+starlette==0.38.*
+pydantic==2.7.*
+uvicorn[standard]==0.30.*
+
+# LangChain / LangServe (compatible set)
+langserve==0.3.2
+langchain-core==0.3.*
+langchain-openai>=0.2.0,<0.4.0
+langchain-community>=0.2.0,<0.4.0
+langchain-ollama>=0.1.0,<0.4.0
+
+# Frontend / utils
+streamlit==1.38.*
+sse-starlette==2.1.*
+python-dotenv>=1.0,<2.0
